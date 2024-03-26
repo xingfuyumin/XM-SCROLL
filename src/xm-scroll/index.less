@@ -1,0 +1,30 @@
+.xm-scroll-container {
+  position: relative;
+  overflow: hidden;
+}
+.xm-scroll-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.xm-scroll-mask {
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  &:hover::-webkit-scrollbar {
+    background-color: #fff;
+  }
+}
+.xm-scroll-mask::-webkit-scrollbar {
+  background-color: transparent;
+  // width: 0;
+  // height: 0;
+}
+.xm-scroll-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

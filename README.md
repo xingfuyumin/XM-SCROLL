@@ -1,2 +1,40 @@
-# XM-SCROLL
-一个基于React的滚动容器，滚动条不占空间，自动隐藏
+# @xmzhou/scroll
+
+[![NPM version](https://img.shields.io/npm/v/@xmzhou/scroll.svg?style=flat)](https://npmjs.org/package/@xmzhou/scroll)
+[![NPM downloads](http://img.shields.io/npm/dm/@xmzhou/scroll.svg?style=flat)](https://npmjs.org/package/@xmzhou/scroll)
+
+A react library developed with dumi
+
+## Usage
+
+TODO
+
+## Options
+
+TODO
+
+## Development
+
+```bash
+# install dependencies
+$ pnpm install
+
+# develop library by docs demo
+$ pnpm start
+
+# build library source code
+$ pnpm run build
+
+# build library source code in watch mode
+$ pnpm run build:watch
+
+# build docs
+$ pnpm run docs:build
+
+# check your project for potential problems
+$ pnpm run doctor
+```
+
+## LICENSE
+
+MIT
